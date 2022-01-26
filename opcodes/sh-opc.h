@@ -247,6 +247,7 @@ sh_dsp_reg_nums;
 #define arch_sh3e	                   (arch_sh3_base     |arch_sh_has_mmu|arch_sh_sp_fpu)
 #define arch_sh3_dsp	                   (arch_sh3_base     |arch_sh_has_mmu|arch_sh_has_dsp)
 #define arch_sh4	                   (arch_sh4_base     |arch_sh_has_mmu|arch_sh_dp_fpu)
+#define arch_sh4_dreamcast           (arch_sh4_base     |arch_sh_has_mmu|arch_sh_dp_fpu)
 #define arch_sh4a	                   (arch_sh4a_base    |arch_sh_has_mmu|arch_sh_dp_fpu)
 #define arch_sh4al_dsp	                   (arch_sh4a_base    |arch_sh_has_mmu|arch_sh_has_dsp)
 #define arch_sh4_nofpu	                   (arch_sh4_base     |arch_sh_has_mmu|arch_sh_no_co)
@@ -362,6 +363,7 @@ SH4AL-dsp                                          SH4A
 #define arch_sh4_up                            (arch_sh4 \
 		| arch_sh4a_up)
 #define arch_sh4a_up                           (arch_sh4a)
+#define arch_sh4_dreamcast_up                  (arch_sh4)
 
 /* Left branch.  */
 #define arch_sh_dsp_up                         (arch_sh_dsp  \

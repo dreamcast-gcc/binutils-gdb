@@ -3716,6 +3716,7 @@ get_machine_flags (Filedata * filedata, unsigned e_flags, unsigned e_machine)
 	    case EF_SH4AL_DSP: strcat (buf, ", sh4al-dsp"); break;
 	    case EF_SH3E: strcat (buf, ", sh3e"); break;
 	    case EF_SH4: strcat (buf, ", sh4"); break;
+	    case EF_SH4_DREAMCAST: strcat (buf, ", sh4-dreamcast"); break;
 	    case EF_SH5: strcat (buf, ", sh5"); break;
 	    case EF_SH2E: strcat (buf, ", sh2e"); break;
 	    case EF_SH4A: strcat (buf, ", sh4a"); break;

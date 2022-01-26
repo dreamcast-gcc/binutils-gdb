@@ -1678,6 +1678,7 @@ enum bfd_architecture
 #define bfd_mach_sh4                           0x40
 #define bfd_mach_sh4_nofpu                     0x41
 #define bfd_mach_sh4_nommu_nofpu               0x42
+#define bfd_mach_sh4_dreamcast                 0x43
 #define bfd_mach_sh4a                          0x4a
 #define bfd_mach_sh4a_nofpu                    0x4b
 #define bfd_mach_sh4al_dsp                     0x4d

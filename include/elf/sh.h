@@ -40,6 +40,8 @@ extern "C" {
 #define EF_SH4A		   12
 #define EF_SH2A            13
 
+#define EF_SH4_DREAMCAST	   14
+
 #define EF_SH4_NOFPU	   16
 #define EF_SH4A_NOFPU	   17
 #define EF_SH4_NOMMU_NOFPU 18
@@ -72,7 +74,8 @@ extern "C" {
 /* EF_SH2E		*/ bfd_mach_sh2e	, \
 /* EF_SH4A		*/ bfd_mach_sh4a	, \
 /* EF_SH2A		*/ bfd_mach_sh2a        , \
-/* 14, 15		*/ 0, 0, \
+/* EF_SH4_DREAMCAST	*/ bfd_mach_sh4_dreamcast , \
+/* 15			*/ 0, \
 /* EF_SH4_NOFPU		*/ bfd_mach_sh4_nofpu	, \
 /* EF_SH4A_NOFPU	*/ bfd_mach_sh4a_nofpu	, \
 /* EF_SH4_NOMMU_NOFPU	*/ bfd_mach_sh4_nommu_nofpu, \

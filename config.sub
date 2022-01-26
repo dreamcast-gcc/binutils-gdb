@@ -304,6 +304,10 @@ case $1 in
 				basic_machine=i586-pc
 				basic_os=msdosdjgpp
 				;;
+			dreamcast)
+				basic_machine=sh-dreamcast
+				os=elf
+				;;
 			ebmon29k)
 				basic_machine=a29k-amd
 				basic_os=ebmon
@@ -1677,6 +1681,9 @@ case $cpu-$vendor in
 		;;
 	*-wrs)
 		os=vxworks
+		;;
+	*-dreamcast)
+		os=elf
 		;;
 	*)
 		os=none
